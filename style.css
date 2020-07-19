@@ -1,0 +1,75 @@
+/*
+
+mobile-box
+mobile-layout
+mobile-camera
+mobile-speaker
+mobile-screen
+mobile-home-buttom
+
+*/
+.mobile-box {
+    width: 360px;
+    height: 700px;
+    margin: auto;
+    background: none;
+}
+
+.mobile-layout {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 25, 25, 0.9);
+    border-radius: 20px 20px;
+    box-shadow: 30px 20px 100px rgb(221, 204, 204);
+    border: 7px solid rgb(218, 208, 208);
+    position: relative;
+}
+
+.mobile-camera {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(223, 208, 208);
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    top: 15px;
+}
+
+.mobile-speaker {
+    width: 101px;
+    height: 9px;
+    background-color: rgb(153, 149, 149);
+    border-radius: 100px;
+    position: absolute;
+    left: 130px;
+    top: 15px;
+}
+
+.mobile-screen {
+    width: 97%;
+    height: 85%;
+    background: url(screen-img.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 9% auto;
+    border-right: 2px solid rgb(240, 197, 197);
+    border-bottom: 2px solid rgb(240, 197, 197);
+}
+
+.mobile-home-button {
+   width: 3rem;
+   height: 3rem;
+   border-radius: 50%;
+   position: absolute;
+   bottom: 2%;
+   left: 50%;
+   transform: translateX(-50%);
+   background-color: rgb(37, 29, 29);
+   box-shadow: 2px 2px  rgb(161, 158, 158);
+}
+
+
+
+.extra-space {
+    margin-bottom: 200px;
+}
