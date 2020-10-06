@@ -48,7 +48,7 @@ mobile-home-buttom
 .mobile-screen {
     width: 97%;
     height: 85%;
-    background: url(screen-img.jpg);
+    background: url(../assets/screen-img.jpg);
     background-position: center;
     background-size: cover;
     margin: 9% auto;
